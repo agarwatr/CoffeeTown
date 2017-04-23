@@ -8,26 +8,33 @@
 public class Warehouse
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private Location location; //location of warehouse
+    int id; //idNumber
+    Truck[] arrayOfTrucks; //number of trucks in warehouse
 
     /**
      * Constructor for objects of class Warehouse
      */
-    public Warehouse()
+    public Warehouse(int idNumber, Location l, int numbTrucks) 
     {
-        // initialise instance variables
-        x = 0;
+        id=idNumber;
+        location=l;
+        arrayOfTrucks = makeArray(numbTrucks);//new Truck[numbTrucks];
+        //for each truck set current location equal to location
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    
+    public Truck[] makeArray(int num)
     {
-        // put your code here
-        return x + y;
+        Truck[] array= new Truck[num];
+        for (int i=0;i<num; i++)
+        {
+            array[i]=new Truck(location);
+        }
+        return array;
+    }
+    
+    public Location getLocation()
+    {
+        return location;
     }
 }
