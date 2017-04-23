@@ -2,12 +2,11 @@
 /**
  * Write a description of class Warehouse here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Simone Khalifa
+ * @version 4.23.17
  */
 public class Warehouse
 {
-    // instance variables - replace the example below with your own
     private Location location; //location of warehouse
     int id; //idNumber
     Truck[] arrayOfTrucks; //number of trucks in warehouse
@@ -19,13 +18,15 @@ public class Warehouse
     {
         id=idNumber;
         location=l;
-        arrayOfTrucks = makeArray(numbTrucks);//new Truck[numbTrucks];
-        //for each truck set current location equal to location
+        arrayOfTrucks = makeArray(numbTrucks);//calls method to set original location of each truck to location of warehouse
     }
     
-    public Truck[] makeArray(int num)
+    /**
+     * Method to set currentLocation of each truck in warehouse array equal to location of warehouse
+     */
+    public Truck[] makeArray(int num) 
     {
-        Truck[] array= new Truck[num];
+        Truck[] array= new Truck[num]; //creates array
         for (int i=0;i<num; i++)
         {
             array[i]=new Truck(location);
@@ -33,7 +34,7 @@ public class Warehouse
         return array;
     }
     
-    public Location getLocation()
+    public Location getLocation() //return location
     {
         return location;
     }
