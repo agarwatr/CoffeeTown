@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cargo()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Cargo\r\n\ that\ creates\ the\ ArrayList\ for\ the\ different\r\n\ quantities\ of\ items\r\n
+comment1.params=amount
+comment1.target=boolean\ insert(int)
+comment1.text=\r\n\ A\ method\ that\ inserts\ the\ amount\ of\ \r\n\ cargo\ of\ a\ certain\ kind\ required\ by\ the\ coffee\ shop.\r\n\ It\ returns\ true\ if\ successful,\ false\ otherwise\r\n\ @param\ int\ weight\ of\ cargo\r\n\ @return\ boolean\r\n
+numComments=2

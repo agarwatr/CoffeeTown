@@ -7,7 +7,7 @@
 public class Truck
 {
     // instance variables - replace the example below with your own
-    private Path path;
+    //private Path path;
     private boolean flag; //whether truck has been used or not--false if not used and true if used
     private Location currentLocation;
 
@@ -17,7 +17,7 @@ public class Truck
     public Truck(Location location)
     {
         flag=false;
-        path=null;
+      //  path=null;
         currentLocation=location;
     }
 }

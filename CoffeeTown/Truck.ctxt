@@ -1,2 +1,5 @@
 #BlueJ class context
-numComments=0
+comment0.params=location
+comment0.target=Truck(Location)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Truck\r\n
+numComments=1

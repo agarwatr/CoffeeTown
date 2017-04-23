@@ -1,8 +1,8 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Shop()
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Shop\r\n
-comment1.params=y
-comment1.target=int\ sampleMethod(int)
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment0.params=ID\ x\ y
+comment0.target=Shop(int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ for\ the\ Shop\ class\ that\r\n\ initliases\ the\ Shop\ to\ a\ given\ location\ and\ Id.\r\n\ It\ also\ intialises\ the\ Cargo\ object\ to\ null\r\n\ @param\ int\ ID\r\n\ @param\ int\ x\ coordinate\r\n\ @param\ int\ y\ corrdinate\r\n
+comment1.params=quant
+comment1.target=boolean\ insertCargo(int)
+comment1.text=\r\n\ A\ method\ that\ inserts\ the\ cargo\ for\ the\r\n\ warehouse\ into\ the\ cargo\ object\r\n
 numComments=2
