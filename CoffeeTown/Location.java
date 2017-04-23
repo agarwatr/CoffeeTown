@@ -1,9 +1,10 @@
 
 /**
- * Write a description of class Location here.
+ * Keeps track of the location of the
+ * object for which it is being used
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Trisha Agarwal 
+ * @04/23/2017
  */
 public class Location
 {
