@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=idNumber\ l\ numbTrucks
+comment0.target=Warehouse(int,\ Location,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Warehouse\r\n
+comment1.params=num
+comment1.target=Truck[]\ makeArray(int)
+comment1.text=\r\n\ Method\ to\ set\ currentLocation\ of\ each\ truck\ in\ warehouse\ array\ equal\ to\ location\ of\ warehouse\r\n
+comment2.params=
+comment2.target=Location\ getLocation()
+numComments=3

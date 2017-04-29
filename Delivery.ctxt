@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=s\ amount
+comment0.target=Delivery(Shop,\ int)
+comment0.text=\r\n\ Constructor\ for\ the\ delivery\ that\r\n\ initliases\ the\ Shop\ and\ the\ amount\ that\ \r\n\ the\ truck\ is\ delivering\ at\ that\ location\r\n\ @param\ Shop\ to\ be\ delivered\ at\r\n\ @param\ int\ amount\ to\ the\ delivered\r\n
+comment1.params=
+comment1.target=Shop\ getShop()
+comment1.text=\r\n\ A\ method\ that\ returns\ the\ Shop\ that\ is\ \r\n\ to\ be\ visited\ next\r\n\ @return\ Shop\r\n
+comment2.params=
+comment2.target=int\ getAmount()
+comment2.text=\r\n\ A\ method\ that\ returns\ the\ amout\ that\ is\ \r\n\ to\ be\ dropped\ off\ at\ the\ next\ Shop\r\n\ @return\ int\r\n
+numComments=3
