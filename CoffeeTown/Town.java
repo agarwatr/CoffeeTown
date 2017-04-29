@@ -1,3 +1,5 @@
+package CoffeeTown;
+
 import java.util.*;
 import java.io.*;
 /**
@@ -8,8 +10,8 @@ import java.io.*;
  */
 public class Town
 {
-    private Vertex[] shops; //array of shops
-    private Vertex[] warehouses; //array of warehouses
+  //  private Vertex[] shops; //array of shops
+    //private Vertex[] warehouses; //array of warehouses
     public static void main(){
         Town t=new Town();
         t.takeInShops();

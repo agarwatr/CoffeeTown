@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=ID\ x\ y
-comment0.target=Shop(int,\ int,\ int)
-comment0.text=\r\n\ Constructor\ for\ the\ Shop\ class\ that\r\n\ initliases\ the\ Shop\ to\ a\ given\ location\ and\ Id.\r\n\ It\ also\ intialises\ the\ Cargo\ object\ to\ null\r\n\ @param\ int\ ID\r\n\ @param\ int\ x\ coordinate\r\n\ @param\ int\ y\ corrdinate\r\n
-comment1.params=quant
-comment1.target=boolean\ insertCargo(int)
-comment1.text=\r\n\ A\ method\ that\ inserts\ the\ cargo\ for\ the\r\n\ warehouse\ into\ the\ cargo\ object\r\n
-numComments=2
