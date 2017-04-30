@@ -5,18 +5,18 @@
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Shop
+public class Shop extends Vertex
 {
     //Instance variables for the Shop
 
     //ID of the shop
-    private int ID;
+ //   private int ID;
     
     //Cargo that the shop needs
     private Cargo c;
     
     //Location of the shop
-    private Location location;
+  //  private Location location;
     
     /**
      * Constructor for the Shop class that

@@ -1,6 +1,6 @@
 #BlueJ class context
-comment0.params=idNumber\ l\ numbTrucks
-comment0.target=Warehouse(int,\ Location,\ int)
+comment0.params=idNumber\ x\ y\ numbTrucks
+comment0.target=Warehouse(int,\ int,\ int,\ int)
 comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Warehouse\r\n
 comment1.params=num
 comment1.target=Truck[]\ makeArray(int)

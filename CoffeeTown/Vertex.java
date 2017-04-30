@@ -10,21 +10,15 @@ public class Vertex
     // instance variables - replace the example below with your own
     
     //Location of the vertex
-    private Location location;
+     Location location;
     
     //ID of the vertex
-    private int ID;
+     int ID;
     
     //Edges of the vertex
-   // private Edge[] e;
+     Edge[] e;
 
-    /**
-     * Constructor for objects of class Vertex
-     */
-    public Vertex(int x, int y, int ID)
-    {
-       
-    }
+   
 
     
 }

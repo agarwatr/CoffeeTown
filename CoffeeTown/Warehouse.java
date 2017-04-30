@@ -5,19 +5,19 @@
  * @author Simone Khalifa
  * @version 4.23.17
  */
-public class Warehouse
+public class Warehouse extends Vertex
 {
-    private Location location; //location of warehouse
-    int id; //idNumber
+  //  private Location location; //location of warehouse
+   // int id; //idNumber
     Truck[] arrayOfTrucks; //number of trucks in warehouse
 
     /**
      * Constructor for objects of class Warehouse
      */
-    public Warehouse(int idNumber, Location l, int numbTrucks) 
+    public Warehouse(int idNumber,int x, int y, int numbTrucks) 
     {
-        id=idNumber;
-        location=l;
+        ID=idNumber;
+        location=new Location(x,y);
         arrayOfTrucks = makeArray(numbTrucks);//calls method to set original location of each truck to location of warehouse
     }
     
